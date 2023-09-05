@@ -1,4 +1,4 @@
-/*CREATE TABLE IF NOT EXISTS list_manu (
+CREATE TABLE IF NOT EXISTS list_manu (
   Transaction_id INTEGER,
   Manu_name VARCHAR(100)
 );
@@ -24,9 +24,9 @@ Create Table Cost_of_meat (
 );
 
 ALTER TABLE Manu
-ADD meat varchar(100);*/
+ADD meat varchar(100);
 
-/*INSERT into Manu VALUES
+INSERT into Manu VALUES
 ('Pad Thai',120,'shrimp'),
 ('Green Curry',120,'Chicken'),
 ('Tom Yum Soup',100,'shrimp'),
@@ -103,22 +103,22 @@ INSERT into list_manu VALUES
 (123783423,'Spicy minced chicken salad'); */
 
 
-/*Select * from manu;*/
+Select * from manu;
 
-/*Select 
+Select 
   Transaction_id,
   date_of_Tran,
   Max(amount)
-From selling;*/
+From selling;
 
-/*select 
+select 
   count(Transaction_id) as N0_tran,
   Min(amount) as min_amount,
   Max(amount) as max_amount,
   Round(AVG(amount),2) as average_amount
-From Selling;*/
+From Selling;
 
-/*Select 
+Select 
 Manu.Manu_name,
 count(Manu.Manu_name) as Count_order
 From Manu
@@ -128,18 +128,18 @@ join Selling
   on selling.Transaction_id=list_manu.transaction_id
 Group by Manu.Manu_name
 Order by Count_order desc
-limit 3;*/
+limit 3;
 
-/*Select 
+Select 
   First_name||Last_name as Full_name,
   sub1.Customer_ID
 from
   (select *from Customer where Age > 26) as sub1
 Join (Select * from selling where amount > 500) as sub2
 on sub2.Customer_id=sub1.Customer_id
-Group by Full_name;*/
+Group by Full_name;
 
-/*With 
+With 
   sub1 as (
     select * From Customer
     Where First_name = 'Supper'),
@@ -159,4 +159,4 @@ join sub4
 on sub4.manu_name=sub3.manu_name
 Group by meat
 ORDER by Count_MEat DESC
-LIMIT 2 ;*/
+LIMIT 2 ;
