@@ -1,14 +1,16 @@
-Hi my name is wut. Nice to see you.
+Hi, my name is Wut. It's nice to see you.
 
-This repositories relevent Code Project .
+The project is in a PDF file. If you want to review my code, you can find it in the language code-specific folders.
 
-You would enjoy my project and happiness.
+These repositories are related to the Code Project.
 
-and now if you want to talk with me. 
+I hope you'll enjoy my project and find it fulfilling.
 
-Please follow every social
+If you'd like to chat with me, please follow me on social media.
 
-FB:
+FB:[Songwut Khongrung](https://www.facebook.com/profile.php?id=100000845932348).
+
+Linkin:[Songwut Khongtung](https://www.linkedin.com/in/songwut-khongrung/)
 
 Website:
 
