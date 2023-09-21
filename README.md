@@ -8,7 +8,7 @@ I hope you'll enjoy my project and find it fulfilling.
 
 If you'd like to chat with me, please follow me on social media.
 
-[Facebook](https://www.facebook.com/profile.php?id=100000845932348).
+[Facebook](https://www.facebook.com/profile.php?id=100000845932348)
 
 [linkin](https://www.linkedin.com/in/songwut-khongrung/)
 
